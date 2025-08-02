@@ -1,4 +1,7 @@
-# Solutions-
+core = TrinityCoreStream()
+core.add_extension(EquationTransformer())
+out = core.stream("∫ L dt")
+print(out)# Solutions-
 
 a python stream that allows add ons
 
