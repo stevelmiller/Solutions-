@@ -54,11 +54,10 @@ The sections below contain the original mathematical theory and specifications.
 core = TrinityCoreStream()
 core.add_extension(EquationTransformer())
 out = core.stream("∫ L dt")
-print(out)# Solutions-
+print(out)
+```
 
-a python stream that allows add ons
-
-We now define a mathematically coherent Python streaming architecture that accepts live, secure runtime add-ons — fully compatible with TrinityOne’s self-extension framework and equation-aligned evolution.
+---
 
 ## ⚙ 1. Stream-Based Add-On Host
 
