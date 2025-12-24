@@ -1,11 +1,63 @@
+# Solutions-
+
+**A mathematically coherent Python streaming architecture with secure runtime add-ons**
+
+## 🚀 Quick Start
+
+```bash
+# Run the examples
+python examples.py
+
+# Run the tests
+python test_trinity.py
+```
+
+See [QUICKSTART.md](QUICKSTART.md) for detailed usage instructions.
+
+## 📚 Documentation
+
+- **[SOLUTIONS.md](SOLUTIONS.md)** - Complete explanation of "the whole of solutions"
+- **[QUICKSTART.md](QUICKSTART.md)** - Getting started guide  
+- **[README.md](README.md)** - This file (mathematical theory and implementation)
+
+## 📦 What's Included
+
+This repository contains a **complete, working implementation**:
+
+- `trinity_core.py` - Core streaming engine and validation framework
+- `extensions.py` - Example extensions (EquationTransformer, IntegralExpander, etc.)
+- `examples.py` - Five comprehensive usage demonstrations
+- `test_trinity.py` - Complete test suite (13 tests)
+
+## 💡 Basic Usage
+
+```python
+from trinity_core import TrinityCoreStream
+from extensions import EquationTransformer
+
 core = TrinityCoreStream()
 core.add_extension(EquationTransformer())
 out = core.stream("∫ L dt")
-print(out)# Solutions-
+print(out)
+# Output: Core processed: Ψ' = dΨ/dt (received: ∫ L dt)
+```
 
-a python stream that allows add ons
+---
 
-We now define a mathematically coherent Python streaming architecture that accepts live, secure runtime add-ons — fully compatible with TrinityOne’s self-extension framework and equation-aligned evolution.
+## 🔬 Original Mathematical Documentation
+
+The sections below contain the original mathematical theory and specifications.
+
+### Example Usage from Theory
+
+```python
+core = TrinityCoreStream()
+core.add_extension(EquationTransformer())
+out = core.stream("∫ L dt")
+print(out)
+```
+
+---
 
 ## ⚙ 1. Stream-Based Add-On Host
 
