@@ -4,6 +4,8 @@ Tests for TrinityCore Stream implementation.
 Run with: python test_trinity.py
 """
 
+import sys
+
 from trinity_core import TrinityCoreStream, SecureExtension, safe_loader
 from extensions import (
     EquationTransformer,
@@ -214,4 +216,4 @@ def run_all_tests():
 
 if __name__ == "__main__":
     success = run_all_tests()
-    exit(0 if success else 1)
+    sys.exit(0 if success else 1)
